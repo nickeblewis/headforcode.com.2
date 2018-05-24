@@ -9,93 +9,420 @@ summary: >-
   Cup of Data website is an e-commerce site. By using the Cup of Data website,
   you consent to the data practices described in this statement.
 ---
-## Collection of your Personal Information
+## Privacy Policy
 
-Cup of Data may collect personally identifiable information, such as your name. If you purchase Cup of Data’s products and services, we collect billing and credit card information. This information is used to complete the purchase transaction. Cup of Data may also collect anonymous demographic information, which is not unique to you, such as your age and gender. We may gather additional personal or non-personal information in the future. Information about your computer hardware and software may be automatically collected by Cup of Data. This information can include: your IP address, browser type, domain names, access times and referring website addresses. This information is used for the operation of the service, to maintain quality of the service, and to provide general statistics regarding use of the Cup of Data website.
+Effective date: May 24, 2018
 
-Cup of Data encourages you to review the privacy statements of websites you choose to link to from Cup of Data so that you can understand how those websites collect, use and share your information. Cup of Data is not responsible for the privacy statements or other content on websites outside of the Cup of Data website.
+3Blades LLC ("us", "we", or "our") operates the https://www.cupofdata.com website (the "Service").
 
-## Use of your Personal Information
+This page informs you of our policies regarding the collection, use, and
+disclosure of personal data when you use our Service and the choices you have
+associated with that data.
 
-Cup of Data collects and uses your personal information to operate its website(s) and deliver the services you have requested.
+We use your data to provide and improve the Service. By using the Service, you
+agree to the collection and use of information in accordance with this policy.
+Unless otherwise defined in this Privacy Policy, terms used in this Privacy
+Policy have the same meanings as in our Terms and Conditions, accessible from
+https://www.cupofdata.com
 
-Cup of Data may also use your personally identifiable information to inform you of other products or services available from Cup of Data and its affiliates. Cup of Data may also contact you via surveys to conduct research about your opinion of current services or of potential new services that may be offered.
+### Definitions  
 
-Cup of Data does not sell, rent or lease its customer lists to third parties.
+  * **Service**
 
-Cup of Data may share data with trusted partners to help perform statistical analysis, send you email or postal mail, provide customer support, or arrange for deliveries. All such third parties are prohibited from using your personal information except to provide these services to Cup of Data, and they are required to maintain the confidentiality of your information.
-Cup of Data may keep track of the websites and pages our users visit within Cup of Data, in order to determine what Cup of Data services are the most popular. This data is used to deliver customized content and advertising within Cup of Data to customers whose behavior indicates that they are interested in a particular subject area.
+    Service is the [https://www.cupofdata.com](https://www.cupofdata.com) website operated by 3Blades LLC
 
-Cup of Data will disclose your personal information, without notice, only if required to do so by law or in the good faith belief that such action is necessary to: (a) conform to the edicts of the law or comply with legal process served on Cup of Data or the site; (b) protect and defend the rights or property of Cup of Data; and, (c) act under exigent circumstances to protect the personal safety of users of Cup of Data, or the public.
+  * **Personal Data**
 
-## Use of Cookies
+    Personal Data means data about a living individual who can be identified
+    from those data (or from those and other information either in our
+    possession or likely to come into our possession).
 
-The Cup of Data website may use “cookies” to help you personalize your online experience. A cookie is a text file that is placed on your hard disk by a web page server. Cookies cannot be used to run programs or deliver viruses to your computer. Cookies are uniquely assigned to you, and can only be read by a web server in the domain that issued the cookie to you.
+  * **Usage Data**
 
-One of the primary purposes of cookies is to provide a convenience feature to save you time. The purpose of a cookie is to tell the Web server that you have returned to a specific page. For example, if you personalize Cup of Data pages, or register with Cup of Data site or services, a cookie helps Cup of Data to recall your specific information on subsequent visits. This simplifies the process of recording your personal information, such as billing addresses, shipping addresses, and so on. When you return to the same Cup of Data website, the information you previously provided can be retrieved, so you can easily use the Cup of Data features that you customized.
-You have the ability to accept or decline cookies. Most Web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. If you choose to decline cookies, you may not be able to fully experience the interactive features of the Cup of Data services or websites you visit.
+    Usage Data is data collected automatically either generated by the use of
+    the Service or from the Service infrastructure itself (for example, the
+    duration of a page visit).
 
-## Security of your Personal Information
+  * **Cookies**
 
-To secure your personal information from unauthorized access, use or disclosure, Cup of Data uses the following: AWS Certificate Authority.
+    Cookies are small pieces of data stored on your device (computer or mobile
+    device).
 
-When personal information (such as a credit card number) is transmitted to other websites, it is protected through the use of encryption, such as the Secure Sockets Layer (SSL) protocol.
+  * **Data Controller**
 
-## Children Under Thirteen
+    Data Controller means the natural or legal person who (either alone or
+    jointly or in common with other persons) determines the purposes for which
+    and the manner in which any personal information are, or are to be,
+    processed.
 
-Cup of Data does not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must ask your parent or guardian for permission to use this website.
-Correcting, Updating and Removing Your Information
+    For the purpose of this Privacy Policy, we are a Data Controller of your
+    Personal Data.
 
-Upon request we will provide you with information about whether we hold, or process on behalf of a third party, any of your personal information. To request this information, please contact us at contact@cupofdata.com. Subscribers to our Services may update or change their Account Information by editing their profile or organization record or by contacting contact@cupofdata.com for more detailed instructions. To make a request to have personal information maintained by us returned to you or removed, please email contact@cupofdata.com. Requests to access, change, or remove your information will be handled within thirty (30) days of receipt.
+  * **Data Processors (or Service Providers)**
 
-The security of your personal information is important to us. We follow generally accepted standards to protect the personal information submitted to us, both during transmission and once it is received. If you have any questions about the security of your personal information, you can contact us at contact@cupofdata.com.
+    Data Processor (or Service Provider) means any natural or legal person who
+    processes the data on behalf of the Data Controller.
 
-## Successor to Cup of Data
+    We may use the services of various Service Providers in order to process
+    your data more effectively.
 
-We may assign or transfer this Policy, as well as your account and related information and data, including any personal information, to any successor person or entity, including upon the acquisition of all or substantially all of our business, stock or assets, or our merger.
-Supplemental Terms and Conditions for Certain Regions
+  * **Data Subject (or User)**
 
-Japan.  If you are a subscriber to our Services, you agree that you are responsible for notifying your customers using our Services about how Cup of Data may use your customers’ personal information as described in this Policy and for obtaining prior consent from your customers to disclose their personal information to us.
+    Data Subject is any living individual who is using our Service and is the
+    subject of Personal Data.
 
-Brazil.  Personal information collected, stored, used and/or processed by Cup of Data or its affiliates, as described in this Policy, is collected, stored, used and/or processed in accordance with Brazilian Law No. 12,965/2014. Those individuals who use or access our Website or Services expressly consent to the collection, use, storage and processing of their personal information by us for the purposes described in this Policy.
+### Information Collection and Use  
 
-Australia.  Personal information collected, stored, used and/or processed by Cup of Data or its affiliates, as described in this Policy, is collected, stored, used and/or processed in compliance with the Australian Privacy Act 1988 (Commonwealth) and the Australia Privacy Principles.
+We collect several different types of information for various purposes to
+provide and improve our Service to you.
 
-If you are dissatisfied with our handling of a complaint or do not agree with the resolution proposed by us, you may make a complaint to the Office of the Australian Information Commissioner (“OAIC”) by contacting the OAIC using the methods listed on their website at  HYPERLINK "http://www.oaic.gov.au/" http://www.oaic.gov.au. Alternatively, you may request that we pass on the details of your complaint to the OAIC directly.
+#### Types of Data Collected  
 
-New Zealand.  Personal information collected, stored, used and/or processed by Cup of Data or its affiliates, as described in this Policy, is collected, stored, used and/or processed in compliance with New Zealand’s Privacy Act 1993 and its 12 Information Privacy Principles (“NZ IPPs”).
+##### Personal Data  
 
-Singapore.  Personal information collected, stored, used and/or processed by Cup of Data and its affiliates, as described in this Policy, is collected, stored, used and/or processed in compliance with its obligations under the Personal Data Protection Act 2012 of Singapore (“PDPA”).
+While using our Service, we may ask you to provide us with certain personally
+identifiable information that can be used to contact or identify you
+("Personal Data"). Personally identifiable information may include, but is not
+limited to:
 
-Canada.  Personal information (as the term is defined in the Personal Information Protection and Electronic Documents Act of Canada (“PIPEDA”)) will be collected, stored, used and/or processed by Cup of Data and its affiliates in compliance with their obligations under PIPEDA.
+  * Email address
+  * First name and last name
+  * Phone number
+  * Address, State, Province, ZIP/Postal code, City
+  * Cookies and Usage Data
 
-## Changes To This Policy
+We may use your Personal Data to contact you with newsletters, marketing or
+promotional materials and other information that may be of interest to you.
+You may opt out of receiving any, or all, of these communications from us by
+following the unsubscribe link or instructions provided in any email we send.
 
-If there are any material changes to this Policy, you will be notified by our posting of a prominent notice on the Websites prior to the change becoming effective. We encourage you to periodically review this page for the latest information on our privacy practices. Your continued use of the Websites or the Services constitutes your agreement to be bound by such changes to this Policy. Your only remedy, if you do not accept the terms of this Policy, is to discontinue use of the Websites and the Services.
+##### Usage Data  
 
-## English Version Controls
+We may also collect information how the Service is accessed and used ("Usage
+Data"). This Usage Data may include information such as your computer's
+Internet Protocol address (e.g. IP address), browser type, browser version,
+the pages of our Service that you visit, the time and date of your visit, the
+time spent on those pages, unique device identifiers and other diagnostic
+data.
 
-Non-English translations of this Policy are provided for convenience only. In the event of any ambiguity or conflict between translations, the English version is authoritative and controls.
+##### Tracking and Cookies Data  
 
-## Opt-Out & Unsubscribe
+We use cookies and similar tracking technologies to track the activity on our
+Service and hold certain information.
 
-We give you an opportunity to opt-out of receiving announcements of certain information. Users may opt-out of receiving any or all communications from Cup of Data by contacting us here:
+Cookies are files with small amount of data which may include an anonymous
+unique identifier. Cookies are sent to your browser from a website and stored
+on your device. Tracking technologies also used are beacons, tags, and scripts
+to collect and track information and to improve and analyze our Service.
 
-Web page: **_**
-Email: **_**
-Phone: **_**
+You can instruct your browser to refuse all cookies or to indicate when a
+cookie is being sent. However, if you do not accept cookies, you may not be
+able to use some portions of our Service.
 
-## Changes to this Statement
+Examples of Cookies we use:
 
-Cup of Data will occasionally update this Statement of Privacy to reflect company and customer feedback. Cup of Data encourages you to periodically review this Statement to be informed of how Cup of Data is protecting your information.
+  * Session Cookies. We use Session Cookies to operate our Service.
+  * Preference Cookies. We use Preference Cookies to remember your preferences
+    and various settings.
+  * Security Cookies. We use Security Cookies for security purposes.
 
-## Contact Information
+### Use of Data  
 
-Cup of Data welcomes your questions or comments regarding this Statement of Privacy. If you believe that Cup of Data has not adhered to this Statement, please contact Cup of Data at:
+3Blades LLC uses the collected data for various purposes:
 
-3Blades, LLC DBA Cup of Data
-3423 Piedmont Road NE
-Atlanta, Georgia 30305
-Email Address: contact@cupofdata.com
+  * To provide and maintain our Service
+  * To notify you about changes to our Service
+  * To allow you to participate in interactive features of our Service when
+    you choose to do so
+  * To provide customer support
+  * To gather analysis or valuable information so that we can improve our
+    Service
+  * To monitor the usage of our Service
+  * To detect, prevent and address technical issues
+  * To provide you with news, special offers and general information about
+    other goods, services and events which we offer that are similar to those
+    that you have already purchased or enquired about unless you have opted
+    not to receive such information
 
-Effective as of February 1, 2018
+### Legal Basis for Processing Personal Data Under General Data Protection
+Regulation (GDPR)  
+
+If you are from the European Economic Area (EEA), 3Blades LLC legal basis for
+collecting and using the personal information described in this Privacy Policy
+depends on the Personal Data we collect and the specific context in which we
+collect it.
+
+3Blades LLC may process your Personal Data because:
+
+  * We need to perform a contract with you
+  * You have given us permission to do so
+  * The processing is in our legitimate interests and it's not overridden by
+    your rights
+  * For payment processing purposes
+  * To comply with the law
+
+### Retention of Data  
+
+3Blades LLC will retain your Personal Data only for as long as is necessary
+for the purposes set out in this Privacy Policy. We will retain and use your
+Personal Data to the extent necessary to comply with our legal obligations
+(for example, if we are required to retain your data to comply with applicable
+laws), resolve disputes, and enforce our legal agreements and policies.
+
+3Blades LLC will also retain Usage Data for internal analysis purposes. Usage
+Data is generally retained for a shorter period of time, except when this data
+is used to strengthen the security or to improve the functionality of our
+Service, or we are legally obligated to retain this data for longer time
+periods.
+
+### Transfer of Data  
+
+Your information, including Personal Data, may be transferred to — and
+maintained on — computers located outside of your state, province, country or
+other governmental jurisdiction where the data protection laws may differ than
+those from your jurisdiction.
+
+If you are located outside United States and choose to provide information to
+us, please note that we transfer the data, including Personal Data, to United
+States and process it there.
+
+Your consent to this Privacy Policy followed by your submission of such
+information represents your agreement to that transfer.
+
+3Blades LLC will take all steps reasonably necessary to ensure that your data
+is treated securely and in accordance with this Privacy Policy and no transfer
+of your Personal Data will take place to an organization or a country unless
+there are adequate controls in place including the security of your data and
+other personal information.
+
+### Disclosure of Data  
+
+#### Business Transaction  
+
+If 3Blades LLC is involved in a merger, acquisition or asset sale, your
+Personal Data may be transferred. We will provide notice before your Personal
+Data is transferred and becomes subject to a different Privacy Policy.
+
+#### Disclosure for Law Enforcement  
+
+Under certain circumstances, 3Blades LLC may be required to disclose your
+Personal Data if required to do so by law or in response to valid requests by
+public authorities (e.g. a court or a government agency).
+
+#### Legal Requirements  
+
+3Blades LLC may disclose your Personal Data in the good faith belief that such
+action is necessary to:
+
+  * To comply with a legal obligation
+  * To protect and defend the rights or property of 3Blades LLC
+  * To prevent or investigate possible wrongdoing in connection with the
+    Service
+  * To protect the personal safety of users of the Service or the public
+  * To protect against legal liability
+
+### Security of Data  
+
+The security of your data is important to us, but remember that no method of
+transmission over the Internet, or method of electronic storage is 100%
+secure. While we strive to use commercially acceptable means to protect your
+Personal Data, we cannot guarantee its absolute security.
+
+### "Do Not Track" Signals  
+
+We do not support Do Not Track ("DNT"). Do Not Track is a preference you can
+set in your web browser to inform websites that you do not want to be tracked.
+
+You can enable or disable Do Not Track by visiting the Preferences or Settings
+page of your web browser.
+
+### Your Data Protection Rights Under General Data Protection Regulation (GDPR)  
+
+If you are a resident of the European Economic Area (EEA), you have certain
+data protection rights. 3Blades LLC aims to take reasonable steps to allow you
+to correct, amend, delete, or limit the use of your Personal Data.
+
+If you wish to be informed what Personal Data we hold about you and if you
+want it to be removed from our systems, please contact us.
+
+In certain circumstances, you have the following data protection rights:
+
+  * The right to access, update or to delete the information we have on you.
+    Whenever made possible, you can access, update or request deletion of your
+    Personal Data directly within your account settings section. If you are
+    unable to perform these actions yourself, please contact us to assist you.
+
+  * The right of rectification. You have the right to have your information
+    rectified if that information is inaccurate or incomplete.
+
+  * The right to object. You have the right to object to our processing of
+    your Personal Data.
+
+  * The right of restriction. You have the right to request that we restrict
+    the processing of your personal information.
+
+  * The right to data portability. You have the right to be provided with a
+    copy of the information we have on you in a structured, machine-readable
+    and commonly used format.
+
+  * The right to withdraw consent. You also have the right to withdraw your
+    consent at any time where 3Blades LLC relied on your consent to process
+    your personal information.
+
+
+Please note that we may ask you to verify your identity before responding to
+such requests.
+
+You have the right to complain to a Data Protection Authority about our
+collection and use of your Personal Data. For more information, please contact
+your local data protection authority in the European Economic Area (EEA).
+
+### Service Providers  
+
+We may employ third party companies and individuals to facilitate our Service
+("Service Providers"), to provide the Service on our behalf, to perform
+Service-related services or to assist us in analyzing how our Service is used.
+
+These third parties have access to your Personal Data only to perform these
+tasks on our behalf and are obligated not to disclose or use it for any other
+purpose.
+
+#### Analytics  
+
+We may use third-party Service Providers to monitor and analyze the use of our
+Service.
+
+  * Google Analytics
+
+    Google Analytics is a web analytics service offered by Google that tracks
+    and reports website traffic. Google uses the data collected to track and
+    monitor the use of our Service. This data is shared with other Google
+    services. Google may use the collected data to contextualize and
+    personalize the ads of its own advertising network.
+
+    You can opt-out of having made your activity on the Service available to
+    Google Analytics by installing the Google Analytics opt-out browser add-
+    on. The add-on prevents the Google Analytics JavaScript (ga.js,
+    analytics.js, and dc.js) from sharing information with Google Analytics
+    about visits activity.
+
+    For more information on the privacy practices of Google, please visit the
+    Google Privacy and Terms web page:
+    <http://www.google.com/intl/en/policies/privacy/>
+
+#### Behavioral Remarketing  
+
+3Blades LLC uses remarketing services to advertise on third party websites to
+you after you visited our Service. We and our third-party vendors use cookies
+to inform, optimize and serve ads based on your past visits to our Service.
+
+  * Google AdWords
+
+    Google AdWords remarketing service is provided by Google Inc.
+
+    You can opt-out of Google Analytics for Display Advertising and customize
+    the Google Display Network ads by visiting the Google Ads Settings page:
+    <http://www.google.com/settings/ads>
+
+    Google also recommends installing the Google Analytics Opt-out Browser
+    Add-on - <https://tools.google.com/dlpage/gaoptout> \- for your web
+    browser. Google Analytics Opt-out Browser Add-on provides visitors with
+    the ability to prevent their data from being collected and used by Google
+    Analytics.
+
+    For more information on the privacy practices of Google, please visit the
+    Google Privacy &amp; Terms web page:
+    <http://www.google.com/intl/en/policies/privacy/>
+
+  * Twitter
+
+    Twitter remarketing service is provided by Twitter Inc.
+
+    You can opt-out from Twitter's interest-based ads by following their
+    instructions: <https://support.twitter.com/articles/20170405>
+
+    You can learn more about the privacy practices and policies of Twitter by
+    visiting their Privacy Policy page: <https://twitter.com/privacy>
+
+  * Facebook
+
+    Facebook remarketing service is provided by Facebook Inc.
+
+    You can learn more about interest-based advertising from Facebook by
+    visiting this page: <https://www.facebook.com/help/164968693837950>
+
+    To opt-out from Facebook's interest-based ads follow these instructions
+    from Facebook: <https://www.facebook.com/help/568137493302217>
+
+    Facebook adheres to the Self-Regulatory Principles for Online Behavioral
+    Advertising established by the Digital Advertising Alliance. You can also
+    opt-out from Facebook and other participating companies through the
+    Digital Advertising Alliance in the USA
+    <http://www.aboutads.info/choices/>, the Digital Advertising Alliance of
+    Canada in Canada <http://youradchoices.ca/> or the European Interactive
+    Digital Advertising Alliance in Europe <http://www.youronlinechoices.eu/>,
+    or opt-out using your mobile device settings.
+
+    For more information on the privacy practices of Facebook, please visit
+    Facebook's Data Policy: <https://www.facebook.com/privacy/explanation>
+
+#### Payments  
+
+We may provide paid products and/or services within the Service. In that case,
+we use third-party services for payment processing (e.g. payment processors).
+
+We will not store or collect your payment card details. That information is
+provided directly to our third-party payment processors whose use of your
+personal information is governed by their Privacy Policy. These payment
+processors adhere to the standards set by PCI-DSS as managed by the PCI
+Security Standards Council, which is a joint effort of brands like Visa,
+Mastercard, American Express and Discover. PCI-DSS requirements help ensure
+the secure handling of payment information.
+
+The payment processors we work with are:
+
+  * Stripe
+
+    Their Privacy Policy can be viewed at <https://stripe.com/us/privacy>
+
+### Links to Other Sites  
+
+Our Service may contain links to other sites that are not operated by us. If
+you click on a third party link, you will be directed to that third party's
+site. We strongly advise you to review the Privacy Policy of every site you
+visit.
+
+We have no control over and assume no responsibility for the content, privacy
+policies or practices of any third party sites or services.
+
+### Children's Privacy  
+
+Our Service does not address anyone under the age of 18 ("Children").
+
+We do not knowingly collect personally identifiable information from anyone
+under the age of 18. If you are a parent or guardian and you are aware that
+your Children has provided us with Personal Data, please contact us. If we
+become aware that we have collected Personal Data from children without
+verification of parental consent, we take steps to remove that information
+from our servers.
+
+### Changes to This Privacy Policy  
+
+We may update our Privacy Policy from time to time. We will notify you of any
+changes by posting the new Privacy Policy on this page.
+
+We will let you know via email and/or a prominent notice on our Service, prior
+to the change becoming effective and update the "effective date" at the top of
+this Privacy Policy.
+
+You are advised to review this Privacy Policy periodically for any changes.
+Changes to this Privacy Policy are effective when they are posted on this
+page.
+
+### Contact Us  
+
+If you have any questions about this Privacy Policy, please contact us:
+
+  * By email: hello@cupofdata.com
+  * By mail: 3423 Piedmont Rd NE Atlanta, GA 30305, United States
+
