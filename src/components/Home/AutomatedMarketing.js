@@ -70,7 +70,11 @@ export default class AutomatedMarketingSection extends React.Component {
     const info = data.filter(item => {
       return item.node.frontmatter.contentType === 'automatedmarketing'
     })
-    const { title, content } = info[0].node.frontmatter
+    const {
+      title,
+      content,
+      automatedMarketingButton,
+    } = info[0].node.frontmatter
     return (
       <Wrapper>
         <Overlay />
@@ -79,9 +83,9 @@ export default class AutomatedMarketingSection extends React.Component {
             {title}
           </AutomatedMarketingSectionTitle>
           <Content>{content}</Content>
-          <Link to="/onboard">
+          <Link to="/beta">
             <RegButton className="py-0 px-5 border-0">
-              Register Now for Early Access
+              {automatedMarketingButton}
             </RegButton>
           </Link>
         </MainContainer>

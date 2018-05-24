@@ -215,22 +215,22 @@ const RowView = styled.div`
 `
 
 const BannerSection = data => {
-  const features = data.data.filter(item => {
+  const homeBanner = data.data.filter(item => {
     return item.node.frontmatter.contentType == 'banner'
   })
   return (
     <Wrapper>
-      {features && (
+      {homeBanner && (
         <BannerContainer>
-          {features.map((item, i) => (
+          {homeBanner.map((item, i) => (
             <Header key={i}>{item.node.frontmatter.header}</Header>
           ))}
-          {features.map((item, i) => (
+          {homeBanner.map((item, i) => (
             <BannerSubTitle key={i}>
               {item.node.frontmatter.title}
             </BannerSubTitle>
           ))}
-          {features.map((item, i) => (
+          {homeBanner.map((item, i) => (
             <Link to="/onboard" key={i}>
               <Button>{item.node.frontmatter.button}</Button>
             </Link>
@@ -250,7 +250,7 @@ const BannerSection = data => {
             </Personal>
             <Personal>
               <PersonaBox2>
-                {features.map((item, i) => (
+                {homeBanner.map((item, i) => (
                   <PersonInfo key={i}>
                     <PersonNameText>
                       {item.node.frontmatter.personName}
