@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from '../Layout'
-import { H6 } from '../Typography'
+import Button from '../Button'
+import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import bannerImage from '../../img/background.svg'
@@ -45,29 +46,37 @@ const ImgCards = styled.img`
   }
 `
 
-const Header = H6.extend`
-  color: ${props => props.theme.banner.color.text};
+const FeaturesButton = Button.extend`
   position: absolute;
-  right: 0rem;
-  top: 15rem;
-  font-size: 24px;
+  right: 4rem;
+  top: 14rem;
   @media screen and (max-width: 576px) {
-    font-size: 18px;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    top: 4rem;
+    top: 5rem;
+    right: 4rem;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0.5rem 3rem;
   }
 `
 
-const BannerSection = () => {
+const BannerSection = data => {
+  const featureBanner = data.data.filter(item => {
+    return item.node.frontmatter.contentType == 'featureBanner'
+  })
   return (
     <Wrapper>
-      <BannerContainer>
-        <Header>
-          Get validated emails and phone numbers in three easy steps!
-        </Header>
-        <ImgCards src={cupAndCards} />
-      </BannerContainer>
+      {featureBanner && (
+        <BannerContainer>
+          {featureBanner.map((item, i) => (
+            <Link to="/beta" key={i}>
+              <FeaturesButton>
+                {item.node.frontmatter.featureButton}
+              </FeaturesButton>
+            </Link>
+          ))}
+          <ImgCards src={cupAndCards} />
+        </BannerContainer>
+      )}
     </Wrapper>
   )
 }

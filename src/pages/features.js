@@ -15,7 +15,7 @@ const FeaturesPage = ({ data }) => {
   return (
     <div>
       <Helmet title={`Features | ${data.site.siteMetadata.title}`} />
-      <BannerSection />
+      <BannerSection data={data.allMarkdownRemark.edges} />
       <FeaturesTitle />
       <FeaturesOne />
       <FeaturesTwo />
@@ -44,6 +44,7 @@ export const featurePageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             header
+            featureButton
           }
         }
       }
