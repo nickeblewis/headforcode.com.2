@@ -45,6 +45,7 @@ export const featurePageQuery = graphql`
             path
             header
             featureButton
+            automatedMarketingButton
           }
         }
       }

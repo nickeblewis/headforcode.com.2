@@ -52,6 +52,7 @@ export const pageQuery = graphql`
             personRole
             mission
             content
+            automatedMarketingButton
           }
         }
       }
