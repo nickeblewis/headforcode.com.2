@@ -79,7 +79,7 @@ export default class PlanSections extends React.Component {
                 machineNumber="Custom"
                 runtime="Custom"
                 enterprise
-                tryPath="/onboards"
+                tryPath="/onboard"
               />
             </Col>
           </Row>
