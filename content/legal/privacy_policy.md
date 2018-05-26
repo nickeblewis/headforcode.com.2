@@ -13,17 +13,13 @@ summary: >-
 
 Effective date: May 24, 2018
 
-3Blades LLC ("us", "we", or "our") operates the https://www.cupofdata.com website (the "Service").
+Thank you for choosing to be part of our community at 3Blades LLC DBA Cup of Data (“company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at contact@3blades.io.
 
-This page informs you of our policies regarding the collection, use, and
-disclosure of personal data when you use our Service and the choices you have
-associated with that data.
+When you visit our website https://www.cupofdata.com, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we describe our privacy policy. We seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our Sites and our services.
 
-We use your data to provide and improve the Service. By using the Service, you
-agree to the collection and use of information in accordance with this policy.
-Unless otherwise defined in this Privacy Policy, terms used in this Privacy
-Policy have the same meanings as in our Terms and Conditions, accessible from
-https://www.cupofdata.com
+This privacy policy applies to all information collected through our website (such as https://www.cupofdata.com), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy policy as the "Sites"). 
+
+Please read this privacy policy carefully as it will help you make informed decisions about sharing your personal information with us. 
 
 ### Definitions  
 
@@ -277,6 +273,12 @@ You have the right to complain to a Data Protection Authority about our
 collection and use of your Personal Data. For more information, please contact
 your local data protection authority in the European Economic Area (EEA).
 
+### Data Protection Rights for California Residents  
+
+California Civil Code Section 1798.83, also known as the “Shine The Light” law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below. 
+
+If you are under 18 years of age, reside in California, and have a registered account with the Sites, you have the right to request removal of unwanted data that you publicly post on the Sites. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Sites, but please be aware that the data may not be completely or comprehensively removed from our systems.
+
 ### Service Providers  
 
 We may employ third party companies and individuals to facilitate our Service
@@ -286,6 +288,10 @@ Service-related services or to assist us in analyzing how our Service is used.
 These third parties have access to your Personal Data only to perform these
 tasks on our behalf and are obligated not to disclose or use it for any other
 purpose.
+
+#### Cookies
+
+We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our [Cookie Policy](https://www.cupofdata.com/cookies).  
 
 #### Analytics  
 
