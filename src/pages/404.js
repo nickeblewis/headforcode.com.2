@@ -58,9 +58,9 @@ const NotFoundPage = () => (
     <Img404 src={img404} />
     <Title>Page Not Found</Title>
     <Detail>
-      You just hit a route that doesn&#39;t exist... the sadness. Sorry, but the
-      page you were looking for could not be found. You can return to our front
-      page, or drop us a line if you can&#39;t find what you&#39;re looking for.
+      Sorry, but the page you were looking for could not be found. You can
+      return to our front page, or drop us a line if you can&#39;t find what
+      you&#39;re looking for.
     </Detail>
     <Link to="/">
       <BackButton>Go back to home page</BackButton>
