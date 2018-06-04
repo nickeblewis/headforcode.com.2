@@ -27,10 +27,24 @@ const FeaturesSectionTitle = H2.extend`
   }
 `
 
-const FeaturesTitle = () => {
+const FeaturesTitle = data => {
+  const featureTitle = data.data.filter(item => {
+    return (
+      item.node.frontmatter.contentType == 'feature' &&
+      item.node.frontmatter.featureType == 'featureTitle'
+    )
+  })
   return (
     <Wrapper>
-      <FeaturesSectionTitle>Finding Amazing Leads is Easy</FeaturesSectionTitle>
+      {featureTitle && (
+        <div>
+          {featureTitle.map((item, i) => (
+            <FeaturesSectionTitle key={i}>
+              {item.node.frontmatter.title}
+            </FeaturesSectionTitle>
+          ))}
+        </div>
+      )}
     </Wrapper>
   )
 }

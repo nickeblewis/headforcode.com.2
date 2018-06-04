@@ -81,33 +81,40 @@ const StepThree = H2.extend`
   margin-top: 0px;
 `
 
-const FeaturesThree = () => {
+const FeaturesThree = data => {
+  const featureThree = data.data.filter(item => {
+    return (
+      item.node.frontmatter.contentType == 'feature' &&
+      item.node.frontmatter.featureType == 'featureThree'
+    )
+  })
   return (
     <Wrapper>
-      <Content>
-        <FeatureRow>
-          <ImgCol xs="12" sm="6">
-            {typeof window !== 'undefined' && (
-              <LazyLoadImage
-                src={featuresScore}
-                effect="blur"
-                width="100%"
-                height="auto"
-              />
-            )}
-          </ImgCol>
-          <ContentCol xs="12" sm="6">
-            <StepThree>Step Three:</StepThree>
-            <FeatureTitle>Rinse and Repeat Automatically</FeatureTitle>
-            <FeatureContent>
-              Cup of Data learns what accounts and leads are working best for
-              you and your company. Like your smart thermostat, Cup of Data uses
-              machine learning to improve the quality of your B2B leads with
-              time. The more you use it, the better your leads get!
-            </FeatureContent>
-          </ContentCol>
-        </FeatureRow>
-      </Content>
+      {featureThree && (
+        <Content>
+          <FeatureRow>
+            <ImgCol xs="12" sm="6">
+              {typeof window !== 'undefined' && (
+                <LazyLoadImage
+                  src={featuresScore}
+                  effect="blur"
+                  width="100%"
+                  height="auto"
+                />
+              )}
+            </ImgCol>
+            {featureThree.map((item, i) => (
+              <ContentCol xs="12" sm="6" key={i}>
+                <StepThree>{item.node.frontmatter.step}</StepThree>
+                <FeatureTitle>{item.node.frontmatter.title}</FeatureTitle>
+                <FeatureContent>
+                  {item.node.frontmatter.description}
+                </FeatureContent>
+              </ContentCol>
+            ))}
+          </FeatureRow>
+        </Content>
+      )}
     </Wrapper>
   )
 }
