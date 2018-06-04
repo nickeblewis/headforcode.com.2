@@ -80,34 +80,40 @@ const StepTwo = H2.extend`
   margin-top: 0px;
 `
 
-const FeaturesTwo = () => {
+const FeaturesTwo = data => {
+  const featureTwo = data.data.filter(item => {
+    return (
+      item.node.frontmatter.contentType == 'feature' &&
+      item.node.frontmatter.featureType == 'featureTwo'
+    )
+  })
   return (
     <Wrapper>
-      <Content>
-        <FeatureRow>
-          <ImgCol xs="12" sm="6">
-            {typeof window !== 'undefined' && (
-              <LazyLoadImage
-                src={contactList}
-                effect="blur"
-                width="100%"
-                height="auto"
-              />
-            )}
-          </ImgCol>
-          <ContentCol xs="12" sm="6">
-            <StepTwo>Step Two:</StepTwo>
-            <FeatureTitle>Build Contact Lists</FeatureTitle>
-            <FeatureContent>
-              Save time by avoiding dead phone numbers and bounced emails. We
-              obtains accurate contact information for your leads with the
-              combination of trusted third party and public data sources and
-              verifies each and every contact to achieve a 95% or better contact
-              accuracy rate.
-            </FeatureContent>
-          </ContentCol>
-        </FeatureRow>
-      </Content>
+      {featureTwo && (
+        <Content>
+          <FeatureRow>
+            <ImgCol xs="12" sm="6">
+              {typeof window !== 'undefined' && (
+                <LazyLoadImage
+                  src={contactList}
+                  effect="blur"
+                  width="100%"
+                  height="auto"
+                />
+              )}
+            </ImgCol>
+            {featureTwo.map((item, i) => (
+              <ContentCol xs="12" sm="6" key={i}>
+                <StepTwo>{item.node.frontmatter.step}</StepTwo>
+                <FeatureTitle>{item.node.frontmatter.title}</FeatureTitle>
+                <FeatureContent>
+                  {item.node.frontmatter.description}
+                </FeatureContent>
+              </ContentCol>
+            ))}
+          </FeatureRow>
+        </Content>
+      )}
     </Wrapper>
   )
 }

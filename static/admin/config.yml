@@ -52,16 +52,6 @@ collections:
       - {label: "Person Name", name: "personName", widget: "string"}
       - {label: "Person Role", name: "personRole", widget: "string"}
 
-  - name: "featureBanner"
-    label: "FeatureBanner"
-    folder: "content/feature-banner"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "banner"}
-      - {label: "Path", name: "path", widget: "string"}
-      - {label: "Button", name: "featureButton", widget: "string"}
-
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
@@ -112,9 +102,21 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "feature"}
+      - {label: "Feature Type", name: "featureType", widget: "string"}
       - {label: "Path", name: "path", widget: "string"}
+      - {label: "Step", name: "step", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
+
+  - name: "featureBanner"
+    label: "FeatureBanner"
+    folder: "content/feature-banner"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "banner"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Button", name: "featureButton", widget: "string"}
 
   - name: "legal"
     label: "Legal"

@@ -16,10 +16,10 @@ const FeaturesPage = ({ data }) => {
     <div>
       <Helmet title={`Features | ${data.site.siteMetadata.title}`} />
       <BannerSection data={data.allMarkdownRemark.edges} />
-      <FeaturesTitle />
-      <FeaturesOne />
-      <FeaturesTwo />
-      <FeaturesThree />
+      <FeaturesTitle data={data.allMarkdownRemark.edges} />
+      <FeaturesOne data={data.allMarkdownRemark.edges} />
+      <FeaturesTwo data={data.allMarkdownRemark.edges} />
+      <FeaturesThree data={data.allMarkdownRemark.edges} />
       <AutomatedMarketing data={data.allMarkdownRemark.edges} />
     </div>
   )
@@ -39,13 +39,16 @@ export const featurePageQuery = graphql`
           excerpt(pruneLength: 400)
           id
           frontmatter {
-            title
+            automatedMarketingButton
             contentType
             date(formatString: "MMMM DD, YYYY")
-            path
-            header
+            description
             featureButton
-            automatedMarketingButton
+            featureType
+            header
+            path
+            title
+            step
           }
         }
       }

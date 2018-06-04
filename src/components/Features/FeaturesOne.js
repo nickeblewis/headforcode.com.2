@@ -81,32 +81,40 @@ const StepOne = H2.extend`
   margin-top: 0px;
 `
 
-const FeaturesOne = () => {
+const FeaturesOne = data => {
+  const featureOne = data.data.filter(item => {
+    return (
+      item.node.frontmatter.contentType == 'feature' &&
+      item.node.frontmatter.featureType == 'featureOne'
+    )
+  })
   return (
     <Wrapper>
-      <Content>
-        <FeatureRow>
-          <ImgCol xs="12" sm="6">
-            {typeof window !== 'undefined' && (
-              <LazyLoadImage
-                src={searchFilter}
-                effect="blur"
-                width="100%"
-                height="auto"
-              />
-            )}
-          </ImgCol>
-          <ContentCol xs="12" sm="6">
-            <StepOne>Step One:</StepOne>
-            <FeatureTitle>Identify Targeted Accounts</FeatureTitle>
-            <FeatureContent>
-              Focus on the accounts that matter. Build targeted B2B account
-              lists with detailed search criteria. Filter your companies by
-              geography, revenue, industry, technology, and much more.
-            </FeatureContent>
-          </ContentCol>
-        </FeatureRow>
-      </Content>
+      {featureOne && (
+        <Content>
+          <FeatureRow>
+            <ImgCol xs="12" sm="6">
+              {typeof window !== 'undefined' && (
+                <LazyLoadImage
+                  src={searchFilter}
+                  effect="blur"
+                  width="100%"
+                  height="auto"
+                />
+              )}
+            </ImgCol>
+            {featureOne.map((item, i) => (
+              <ContentCol xs="12" sm="6" key={i}>
+                <StepOne>{item.node.frontmatter.step}</StepOne>
+                <FeatureTitle>{item.node.frontmatter.title}</FeatureTitle>
+                <FeatureContent>
+                  {item.node.frontmatter.description}
+                </FeatureContent>
+              </ContentCol>
+            ))}
+          </FeatureRow>
+        </Content>
+      )}
     </Wrapper>
   )
 }
