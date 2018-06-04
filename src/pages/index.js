@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => (
     <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
     <BannerSection data={data.allMarkdownRemark.edges} />
     <HowItWorks />
-    <Benefits />
+    <Benefits data={data} />
     <News data={data} />
     <Testimonials data={data} />
     <AutomatedMarketing data={data.allMarkdownRemark.edges} />
@@ -36,6 +36,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
+            image
             contentType
             date(formatString: "MMMM DD, YYYY")
             path

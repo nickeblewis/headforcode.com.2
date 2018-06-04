@@ -52,6 +52,19 @@ collections:
       - {label: "Person Name", name: "personName", widget: "string"}
       - {label: "Person Role", name: "personRole", widget: "string"}
 
+  - name: "benefits"
+    label: "Benefits"
+    folder: "content/benefits"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "automatedmarketing"}
+      - {label: "Benefit Order", name: "benefitType", widget: "select", options: "benefitOne", "benefitTwo", "benefitThree", "benefitFour"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Header", name: "title", widget: "string"}
+      - {label: "Description", name: "content", widget: "string"}
+      - {label: "Image", name: image, widget: file }
+
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
@@ -102,9 +115,9 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "feature"}
-      - {label: "Feature Type", name: "featureType", widget: "string"}
+      - {label: "Feature Order", name: "featureType", widget: "select", options: "featureOne", "featureTwo", "featureThree"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: "Step", name: "step", widget: "string"}
+      - {label: "Step Text", name: "step", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
 
