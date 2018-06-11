@@ -1,0 +1,18 @@
+module.exports = {
+  siteTitle: 'Cup of Data Web Site',
+  siteTitleAlt: 'Cup of Data',
+  siteLogo: '/logos/logo-512x512.png',
+  siteUrl: 'https://www.cupofdata.com',
+  pathPrefix: '/',
+  siteDescription: 'Find better leads with Cup of Data.',
+  siteRss: '/rss.xml',
+  siteFBAppID: '',
+  googleTagManagerID: '',
+  userName: 'Cup of Data',
+  userTwitter: 'cupofdata',
+  userLocation: 'Atlanta, GA',
+  userDescription: '',
+  copyright: 'Copyright © Cup of Data 2018. All Rights Reserved.',
+  themeColor: '#00d1b2',
+  backgroundColor: '#ffffff',
+}
