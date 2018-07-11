@@ -157,7 +157,7 @@ collections:
       - {label: "Announcment", name: "announcement", widget: "string"}
 
   - name: "testimonial"
-    label: "Testimonials"
+    label: "Testimonials man"
     folder: "content/testimonials"
     create: true
     slug: "{{slug}}"
