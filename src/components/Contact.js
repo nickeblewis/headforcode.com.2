@@ -137,10 +137,10 @@ export default function ContactSection({ data }) {
               Farnborough, GU14 7QB
             </Address>
             <ShareIcon>
-              <A href="https://www.facebook.com/Cup-of-Data-143732069623215/">
+              <A href="https://www.facebook.com/headforcode/">
                 <Icon className="fab fa-facebook-square fa-2x" />
               </A>
-              <A href="https://twitter.com/cupofdata">
+              <A href="https://twitter.com/headforcode">
                 <Icon className="fab fa-twitter fa-2x" />
               </A>
               <A href="https://www.linkedin.com/company/11433034/">
