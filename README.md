@@ -1,16 +1,16 @@
-# cupofdata.com
+# nicklewis.digital
 
 [![node >= 8.x](https://img.shields.io/badge/node-%3E%3D%208.x-brightgreen.svg?style=flat-square)](https://nodejs.org/)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.digital/prettier/prettier)
 [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
 
-The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
+The code base for the primary [Nick Lewis Digital](https://nicklewis.digital/) website.
 
 ## Technical Decisions
 
 * We use the [GatsbyJs](https://www.gatsbyjs.org/) static site generator.
-* Content (text, blog posts, etc.) are managed via the [Netlify CMS](https://www.netlifycms.org/) [admin panel](https://www.cupofdata.com/admin/) as Markdown files.
-* The site is hosted on [Netlify](https://www.netlify.com/). Merges/pushes to master are automatically deployed. Pull requests against master will be built as deploy previews.
+* Content (text, blog posts, etc.) are managed via the [Netlify CMS](https://www.netlifycms.org/) [admin panel](https://nicklewis.digital/admin/) as Markdown files.
+* The site is hosted on [Netlify](https://www.netlify.digital/). Merges/pushes to master are automatically deployed. Pull requests against master will be built as deploy previews.
 
 ## Development
 
@@ -22,7 +22,7 @@ The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
 ## Production
 
 1. Add this repository to `Deploy Settings`
-1. Add `gatsby build` as build command
+1. Add `gatsby build` as build digitalmand
 1. Specify `public` as `Publish directory`
 1. Add `master` as `Production branch`
 
@@ -37,6 +37,6 @@ The code base for the primary [Cup of Data](https://www.cupofdata.com/) website.
 
 ## Copyright
 
-Copyright &copy; 2018 Cup of Data. All rights reserved.
+Copyright &copy; 2018 Nick Lewis. All rights reserved.
 
 MIT licensed.
