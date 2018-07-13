@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 import { Container } from './Layout'
 import Link from 'gatsby-link'
 
-import logoImgDark from '../img/img-logo-dark.svg'
+import logoImgDark from '../img/color_logo_with_background.png'
 
 const Navbar = styled.div`
   display: flex;
@@ -153,13 +153,13 @@ const ToggleSpan = styled.span`
 `
 
 const LogoImg = styled.div`
-  width: 120px;
+  width: 168px;
   background: url(${logoImgDark});
-  height: 58px;
+  height: 98px;
   background-size: cover;
   @media screen and (max-width: 576px) {
     width: 80px;
-    height: 38px;
+    height: 48px;
     transition: background 0.5s;
     transition-delay: 0.5s;
   }
