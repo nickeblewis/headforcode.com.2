@@ -27,8 +27,8 @@ const Footer = () => (
       <Row>
         <Col xs="12" sm="8">
           <Text>
-            Copyright © {new Date().getFullYear()} 3Blades LLC - Made with love
-            in Atlanta, GA.
+            Copyright © {new Date().getFullYear()} Nick Lewis Ltd (HeadForCode)
+            in Hampshire, England.
           </Text>
         </Col>
         <Col xs="12" sm="2">

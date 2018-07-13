@@ -106,7 +106,7 @@ The date at the top of this Cookie Policy indicates when it was last updated.
 If you have any questions about our use of cookies or other technologies, please email us at contact@cupofdata.com or by post to:   
 
 ```
-3Blades LLC DBA Cup of Data  
+Nick Lewis Ltd (HeadForCode)
 3423 Piedmont Rd NE  
 Atlanta, GA 30305
 ```
