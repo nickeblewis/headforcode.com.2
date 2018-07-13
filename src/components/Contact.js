@@ -132,9 +132,9 @@ export default function ContactSection({ data }) {
           <SpCol xs="6" sm="3">
             <ContactUs>CONTACT US</ContactUs>
             <Address>
-              Cup of Data
-              <br />3423 Piedmont Rd NE<br />
-              Atlanta, GA 30305
+              HeadForCode
+              <br />22 Union Street<br />
+              Farnborough, GU14 7QB
             </Address>
             <ShareIcon>
               <A href="https://www.facebook.com/Cup-of-Data-143732069623215/">
