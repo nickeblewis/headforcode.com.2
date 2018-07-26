@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+// import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Container, Row, Col } from './Layout'
 import { P } from './Typography'
 
-import imgLogo from '../img/img-logo.svg'
+// import imgLogo from '../img/img-logo.svg'
 
 const Wrapper = styled.div`
   padding-top: 85px;
@@ -33,11 +33,11 @@ const ContactUs = P.extend`
   line-height: 33px;
 `
 
-const Mission = P.extend`
-  font-weight: normal;
-  color: ${({ theme }) => theme.contact.color.text};
-  margin-top: 2rem;
-`
+// const Mission = P.extend`
+//   font-weight: normal;
+//   color: ${({ theme }) => theme.contact.color.text};
+//   margin-top: 2rem;
+// `
 
 const Address = P.extend`
   font-weight: normal;
@@ -84,38 +84,39 @@ const SpCol = Col.extend`
   }
 `
 
-const MainCol = SpCol.extend`
-  @media screen and (max-width: 576px) {
-    text-align: center;
-  }
-`
+// const MainCol = SpCol.extend`
+//   @media screen and (max-width: 576px) {
+//     text-align: center;
+//   }
+// `
 
 const A = styled.a`
   color: #ffffff;
 `
 
-export default function ContactSection({ data }) {
-  const contactInfo = data.filter(item => {
-    return item.node.frontmatter.contentType === 'contact'
-  })
-  const { mission } = contactInfo[0].node.frontmatter
+// export default function ContactSection({ data }) {
+export default function ContactSection() {
+  // const contactInfo = data.filter(item => {
+  //   return item.node.frontmatter.contentType === 'contact'
+  // })
+  // const { mission } = contactInfo[0].node.frontmatter
   return (
     <Wrapper>
       <Container>
         <Row>
-          <MainCol xs="12" sm="5">
+          {/* <MainCol xs="12" sm="5">
             {typeof window !== 'undefined' && (
               <LazyLoadImage effect="blur" src={imgLogo} width="120" />
             )}
             <Mission>{mission}</Mission>
-          </MainCol>
+          </MainCol> */}
           <SpCol xs="6" sm="3">
             <SiteMap>SITEMAP</SiteMap>
             <Ul>
               <Li>
                 <SiteMapLink to="/">Home</SiteMapLink>
               </Li>
-              <Li>
+              {/* <Li>
                 <SiteMapLink to="/features">Features</SiteMapLink>
               </Li>
               <Li>
@@ -126,7 +127,7 @@ export default function ContactSection({ data }) {
               </Li>
               <Li>
                 <SiteMapLink to="/blog">Blog</SiteMapLink>
-              </Li>
+              </Li> */}
             </Ul>
           </SpCol>
           <SpCol xs="6" sm="3">

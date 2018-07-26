@@ -25,23 +25,23 @@ const Navbar = styled.div`
   }
 `
 
-const NavItem = styled.li`
-  color: ${props => props.theme.navbar.textColor};
-  :last-child {
-    margin-left: 1.75rem;
-    a {
-      border-radius: 2px;
-      border: 1px solid ${props => props.theme.navbar.textColor};
-    }
-  }
-  @media only screen and (max-width: 576px) {
-    padding: 1rem 0;
-    color: #000;
-    :last-child {
-      margin-left: 0rem;
-    }
-  }
-`
+// const NavItem = styled.li`
+//   color: ${props => props.theme.navbar.textColor};
+//   :last-child {
+//     margin-left: 1.75rem;
+//     a {
+//       border-radius: 2px;
+//       border: 1px solid ${props => props.theme.navbar.textColor};
+//     }
+//   }
+//   @media only screen and (max-width: 576px) {
+//     padding: 1rem 0;
+//     color: #000;
+//     :last-child {
+//       margin-left: 0rem;
+//     }
+//   }
+// `
 
 const NavWrapper = styled.ul`
   display: flex;
@@ -74,15 +74,15 @@ const NavWrapper = styled.ul`
   }
 `
 
-const NavLink = styled(Link)`
-  font-family: GTWalsheimMedium;
-  font-size: 18px;
-  padding: 0.5rem 1.75rem;
-  color: ${props => props.theme.navbar.textColor};
-  transition: color 0.5s;
-  text-decoration: none;
-  cursor: pointer;
-`
+// const NavLink = styled(Link)`
+//   font-family: GTWalsheimMedium;
+//   font-size: 18px;
+//   padding: 0.5rem 1.75rem;
+//   color: ${props => props.theme.navbar.textColor};
+//   transition: color 0.5s;
+//   text-decoration: none;
+//   cursor: pointer;
+// `
 
 const NavSection = Container.extend`
   display: flex;
@@ -212,31 +212,31 @@ export default class NavContainer extends React.Component {
             </Toggle>
           </MobileNav>
           <NavWrapper active={this.state.collapsible}>
-            <NavItem>
+            {/* <NavItem>
               <NavLink to="/features" onClick={this.moveTo}>
                 Features
               </NavLink>
-            </NavItem>
-            <NavItem>
+            </NavItem> */}
+            {/* <NavItem>
               <NavLink to="/pricing" onClick={this.moveTo}>
                 Pricing
               </NavLink>
-            </NavItem>
-            <NavItem>
+            </NavItem> */}
+            {/* <NavItem>
               <NavLink to="/about" onClick={this.moveTo}>
                 About
               </NavLink>
-            </NavItem>
-            <NavItem>
+            </NavItem> */}
+            {/* <NavItem>
               <NavLink to="/blog" onClick={this.moveTo}>
                 Blog
               </NavLink>
-            </NavItem>
-            <NavItem>
+            </NavItem> */}
+            {/* <NavItem>
               <NavLink to="/onboard" onClick={this.moveTo}>
                 Early Access
               </NavLink>
-            </NavItem>
+            </NavItem> */}
           </NavWrapper>
         </NavSection>
       </Navbar>
