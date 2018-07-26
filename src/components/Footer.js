@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from './Layout'
 import { P } from './Typography'
-import Link from 'gatsby-link'
+// import Link from 'gatsby-link'
 
 const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.footer.color.background};
@@ -17,9 +17,9 @@ const Text = P.extend`
   }
 `
 
-const CustomLink = styled(Link)`
-  text-decoration: none;
-`
+// const CustomLink = styled(Link)`
+//   text-decoration: none;
+// `
 
 const Footer = () => (
   <Wrapper>
@@ -31,7 +31,7 @@ const Footer = () => (
             in Hampshire, England.
           </Text>
         </Col>
-        <Col xs="12" sm="2">
+        {/* <Col xs="12" sm="2">
           <CustomLink to="/privacy">
             <Text>Privacy Policy</Text>
           </CustomLink>
@@ -40,7 +40,7 @@ const Footer = () => (
           <CustomLink to="/terms">
             <Text>Terms of Use</Text>
           </CustomLink>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   </Wrapper>
